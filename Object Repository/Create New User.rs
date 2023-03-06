@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Succesfull Get All The List By ID Registered</description>
-   <name>Get All The List By ID</name>
+   <description>Succesfull Create New User</description>
+   <name>Create New User</name>
    <tag></tag>
-   <elementGuidId>8a2b0183-3fe1-4224-8b52-ad7220f98b64</elementGuidId>
+   <elementGuidId>2a750db7-a15c-4293-8fcc-8746f2aab255</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -14,7 +14,7 @@
    <katalonVersion>8.5.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
+   <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://jsonplaceholder.typicode.com/posts</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -25,12 +25,12 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <validationSteps>
-      <id>68557e3a-ff02-4b90-a7ac-4a1612cc2316</id>
-      <name>Get All The List By ID Jsonschema</name>
+      <id>d79f98a1-e0ff-42ef-9d6d-f93d0d0603ef</id>
+      <name>Create New User Jsonschema</name>
       <type>JSON_SCHEMA</type>
       <dataType>FILE</dataType>
       <target>RESPONSE</target>
-      <data>D:\Automation\Katalon\Automatio API Jsonplaceholder\Jsonplaceholder schema\Getallthelist.schema.txt</data>
+      <data>D:\Automation\Katalon\Automatio API Jsonplaceholder\Jsonplaceholder schema\Postcreatenewuser.schema.txt</data>
       <activate>true</activate>
    </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*

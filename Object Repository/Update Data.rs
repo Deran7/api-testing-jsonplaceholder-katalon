@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Succesfull Get All The List By ID Registered</description>
-   <name>Get All The List By ID</name>
+   <description>Succesfull Update Data By ID Registered</description>
+   <name>Update Data</name>
    <tag></tag>
-   <elementGuidId>8a2b0183-3fe1-4224-8b52-ad7220f98b64</elementGuidId>
+   <elementGuidId>b4c5a436-162c-43ae-9e17-3f2924b84a71</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -14,8 +14,8 @@
    <katalonVersion>8.5.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/posts</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/posts/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -25,12 +25,12 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <validationSteps>
-      <id>68557e3a-ff02-4b90-a7ac-4a1612cc2316</id>
-      <name>Get All The List By ID Jsonschema</name>
+      <id>96f0c428-b644-40eb-9e84-734679f95054</id>
+      <name>Update Data Jsonschema</name>
       <type>JSON_SCHEMA</type>
       <dataType>FILE</dataType>
       <target>RESPONSE</target>
-      <data>D:\Automation\Katalon\Automatio API Jsonplaceholder\Jsonplaceholder schema\Getallthelist.schema.txt</data>
+      <data>D:\Automation\Katalon\Automatio API Jsonplaceholder\Jsonplaceholder schema\Putupdate.schema.txt</data>
       <activate>true</activate>
    </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
